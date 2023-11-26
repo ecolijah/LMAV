@@ -42,11 +42,6 @@ try:
                     # Add your video switching logic here
 
 
-
-        # for testing
-        # volume = np.linalg.norm(numpydata) * 10
-        # print(f"Volume: {volume}")
-
         # TODO: Add more sophisticated audio processing here
 
 except KeyboardInterrupt:
