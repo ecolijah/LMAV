@@ -6,7 +6,7 @@ import time
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
-CHUNK = 1024  # number of audio frames to be examined in each chunk
+CHUNK = 2048  # number of audio frames to be examined in each chunk
              # this is key to achieving low latency, to find a balance adjust this
 
 # CREATE PYAUDIO INSTANCE
